@@ -1,50 +1,55 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState } from "react";
 
 const ContactUs = () => {
-  const btnRef = useRef(null);
-  const contactBgRef = useRef(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // useEffect(() => {
-  //   const btn = btnRef.current;
-  //   const contactBg = contactBgRef.current;
+  const handleSeeMoreClick = (event) => {
+    event.stopPropagation();
+    setIsModalOpen(true);
+    console.log(isModalOpen);
+  };
 
-  //   if (!btn || !contactBg) return;
-
-  //   const handleMouseMove = (event) => {
-  //     const rect = contactBg.getBoundingClientRect();
-  //     const x = event.clientX - rect.left;
-  //     const y = event.clientY - rect.top;
-  //     btn.style.left = `${x}px`;
-  //     btn.style.top = `${y}px`;
-  //     btn.style.transform = "translate(-50%, -50%)";
-  //   };
-
-  //   const handleClick = (event) => {
-  //     event.stopPropagation();
-  //   };
-
-  //   btn.addEventListener("click", handleClick);
-  //   contactBg.addEventListener("mousemove", handleMouseMove);
-
-  //   return () => {
-  //     btn.removeEventListener("click", handleClick);
-  //     contactBg.removeEventListener("mousemove", handleMouseMove);
-  //   };
-  // }, []);
+  const handleMouseMove = (event) => {
+    const btn = document.getElementById("seeMoreBtnn");
+    const container = document.getElementById("contact-Bg");
+    if (btn && container) {
+      const rect = container.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+      btn.style.left = `${x}px`;
+      btn.style.top = `${y}px`;
+      btn.style.transform = "translate(-50%, -50%)";
+    }
+  };
 
   return (
-    <div className="p-8 bg-gray-900 text-white relative">
-      <div class="top-text">
-        <h2 class="title-top-text out-Testimonial">
-          Get Started<i class="bi bi-envelope-paper"></i>
+    <div className="w-full h-auto max-w-[1600px] mx-[auto] mt-[50px] bg-white">
+      <div className="top-text">
+        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%]">
+          Get Started
+          <i className="bi bi-envelope-paper ml-1 text-xl text-colorOne"></i>
         </h2>
       </div>
-      <div class="contact-bg" id="contact-Bg">
-        <h2>
-          Get in <span> touch with us.</span> We're here to{" "}
-          <span> assist you.</span>
+
+      <div
+        className="w-full h-[355px] rounded-[8px] flex justify-start items-center p-[20px] relative overflow-hidden"
+        id="contact-Bg"
+        onMouseMove={handleMouseMove}
+        style={{
+          background: "url('/assets/contact-us-1.png') no-repeat center",
+          backgroundSize: "cover",
+        }}
+      >
+        <h2 className="text-[66px] font-bold text-white w-1/2">
+          Get in <span className="text-colorOne"> touch with us.</span> We're
+          here to
+          <span className="text-colorOne"> assist you.</span>
         </h2>
-        <button class="see-more-cont" id="seeMoreBtnn">
+        <button
+          className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+          id="seeMoreBtnn"
+          onClick={handleSeeMoreClick}
+        >
           Contact-Us
         </button>
       </div>

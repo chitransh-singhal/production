@@ -12,17 +12,20 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='w-full h-auto mx-auto bg-white font-GillSans'>
+    <div className='w-full h-auto mx-auto font-GillSans'>
       {/* <Navbar /> */}
-      {/* <HeroSection /> */}
+      <HeroSection />
       <AboutSection />
-      {/* <Showcase /> */}
-      {/* <Services /> */}
-      {/* <Portfolio /> */}
-      {/* <Marqueew /> */}
-      {/* <Testimonials /> */}
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
+      <Showcase />
+      <Services />
+      <Portfolio />
+      <Marqueew />
+      <Testimonials />
+      <div class="w-full h-auto max-w-full mx-[auto] mt-[50px] bg-white flex justify-center items-center">
+        <img src="/assets/logos.png" alt="logo" />
+      </div>
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

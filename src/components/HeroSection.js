@@ -19,11 +19,11 @@ const HeroSection = () => {
       </video>
       
       <div className="relative z-20 px-4">
-        <h1 className="text-[25px] mb-4">Briefly describe your services</h1>
-        <p className="text-7xl/[1.2] mb-8 font-[Inter] font-black bg-gradient-to-r from-[#FBB011] via-white to-[#FBB011] bg-clip-text text-transparent">
+        <h1 className="text-[25px] sm:text-[2rem] xs:[1.5rem] mb-4">Briefly describe your services</h1>
+        <p className="text-7xl/[1.2] sm:text-[1.25rem] xs:text-[1rem] mb-8 font-[Inter] font-black bg-gradient-to-r from-[#FBB011] via-white to-[#FBB011] bg-clip-text text-transparent">
           Capturing Moments, <br /> Crafting Stories
         </p>
-        <button className="px-8 py-3 text-lg font-semibold border border-colorOne text-colorOne bg-transparent cursor-pointer transition-colors duration-300 ease-in-out rounded hover:bg-colorOne hover:text-black">
+        <button className="px-8 py-3 sm:px-[1.5rem] sm:py-[0.5rem] xs:px-[1.2rem] xs:py-[0.4rem] text-lg sm:text-[0.9rem] xs:text-[0.8rem] font-semibold border border-colorOne text-colorOne bg-transparent cursor-pointer transition-colors duration-300 ease-in-out rounded hover:bg-colorOne hover:text-black">
           Watch Showreel <i className="bi bi-camera-video"></i>
         </button>
       </div>
@@ -34,10 +34,10 @@ const HeroSection = () => {
         <h4 className="font-light">Videography</h4>
       </div>
       
-      <div className="absolute py-2 px-4 rounded text-white top-4 right-4 z-20">
+      <div className="absolute py-2 px-4 sm:py-[0.4rem] sm:px-[0.8rem] sm:text-[0.9rem] xs:py-[0.3rem] xs:px-[0.6rem] xs:text-[0.8rem] rounded text-white top-4 right-4 z-20">
         <img src="/assets/Vector-1.png" alt="" className="w-20 h-20" />
       </div>
-      <div className="absolute py-2 px-4 rounded text-white bottom-4 left-4 z-20">
+      <div className="absolute py-2 px-4 sm:py-[0.4rem] sm:px-[0.8rem] sm:text-[0.9rem] xs:py-[0.3rem] xs:px-[0.6rem] xs:text-[0.8rem] rounded text-white bottom-4 left-4 z-20">
         <img src="/assets/Vector.png" alt="" className="w-20 h-20" />
       </div>
       
