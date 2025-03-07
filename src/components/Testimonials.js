@@ -11,7 +11,7 @@ const Testimonials = () => {
             <div className="flex lg:justify-between items-center w-full lg:gap-[8px] sm:justify-start sm:gap-[6rem] ">
                 <h3 className="lg:text-[56px] sm:text-[32px] xs:text-[28px] font-bold">Hear from <br />
                     <samp> Satisfied Clients </samp></h3>
-                <img src="/assets/img-bg.png" alt="" className="w-auto sm:w-[15rem] xs:w-40 "/>
+                <img src="/assets/img-bg.png" alt="" className="lg:w-auto sm:w-[15rem] xs:w-40 "/>
             </div>
             <div 
                 className="mt-[6px] w-full h-[900px] rounded-[6px] overflow-hidden flex flex-col justify-end items-center mx-[auto] my-[0] bg-text"
