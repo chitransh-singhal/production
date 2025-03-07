@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-[80vh] overflow-hidden flex flex-col items-center justify-center text-white text-center gap-6 rounded-b-2xl">
+    <section className="relative h-[80vh] overflow-hidden flex flex-col items-center justify-center text-white text-center gap-6 rounded-b-2xl bg-white">
       <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
       
       <video
