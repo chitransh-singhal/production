@@ -21,7 +21,7 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <div className="mt-[110px] mx-auto flex flex-col text-center lg:text-left items-center justify-between flex-wrap w-full max-w-[1600px]">
+    <div className="mt-[110px] mx-auto flex flex-col text-center lg:text-left items-center justify-between flex-wrap w-full max-w-[1600px] bg-white">
       <div className="w-full flex flex-col-reverse lg:flex-row justify-center items-start">
         <div className="max-w-full lg:max-w-[40%] text-left flex flex-col justify-center items-start gap-2">
           <h2 className="text-[32px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-1/3">
