@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import Showcase from './components/Showcase'
@@ -13,7 +12,6 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className='w-full h-auto mx-auto font-GillSans'>
-      {/* <Navbar /> */}
       <HeroSection />
       <AboutSection />
       <Showcase />
