@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
     return (
-        <div className="w-full h-autp max-w-[1600px] mx-auto mt-[50px] bg-white">
+        <div className="w-full h-autp max-w-[1600px] mx-auto mt-[50px]">
             <div className="top-text">
                 <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%]">
                     Testimonial<i className="bi bi-chat-dots ml-1 text-xl text-colorOne"></i>
