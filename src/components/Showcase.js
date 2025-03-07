@@ -12,7 +12,7 @@ const Showcase = () => {
       <div className="w-full max-w-[1600px] h-[750px] flex flex-col justify-center items-center gap-4 sm:px-[15px] xs:px-[10px]">
         <div className="flex justify-center items-center gap-8 w-full overflow-hidden flex-wrap md:flex-col md:gap-4 sm:gap-2 xs:gap-1">
           <div
-            className="flex-1 w-[480px] h-[350px] md:w-full md:h-auto md:h-[300px] sm:h-[250px] xs:h-[200px] xs:bg-right z-5 rounded-sm overflow-hidden transition-all duration-200 ease-in hover:border-2 hover:border-colorOne"
+            className="flex-1 lg:w-[480px] lg:h-[350px] md:w-full md:h-auto md:h-[300px] sm:h-[250px] xs:h-[200px] xs:bg-right z-5 rounded-sm overflow-hidden transition-all duration-200 ease-in hover:border-2 hover:border-colorOne"
             style={{
               background: "url('/assets/1.png') no-repeat",
               backgroundSize: "cover",
