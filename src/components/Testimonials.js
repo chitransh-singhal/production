@@ -8,8 +8,8 @@ const Testimonials = () => {
                     Testimonial<i className="bi bi-chat-dots ml-1 text-xl text-colorOne"></i>
                 </h2>
             </div>
-            <div className="flex justify-between items-center w-full gap-[8px] sm:justify-start sm:gap-[6rem] ">
-                <h3 className="text-[56px] sm:text-[32px] xs:text-[28px] font-bold">Hear from <br />
+            <div className="flex lg:justify-between items-center w-full lg:gap-[8px] sm:justify-start sm:gap-[6rem] ">
+                <h3 className="lg:text-[56px] sm:text-[32px] xs:text-[28px] font-bold">Hear from <br />
                     <samp> Satisfied Clients </samp></h3>
                 <img src="/assets/img-bg.png" alt="" className="sm:w-[15rem] xs:w-40 "/>
             </div>
