@@ -19,7 +19,7 @@ function App() {
       <Portfolio />
       <Marqueew />
       <Testimonials />
-      <div class="w-full h-auto max-w-full mx-[auto] mt-[50px] bg-white flex justify-center items-center">
+      <div class="w-full h-auto max-w-full mx-[auto] pt-[50px] bg-white flex justify-center items-center">
         <img src="/assets/logos.png" alt="logo" />
       </div>
       <ContactUs />

@@ -41,7 +41,7 @@ const Services = () => {
   return (
     <div className="w-full h-[790px] max-w-[1600px] mx-auto mt-[50px] bg-transparent">
       <div className="flex justify-start items-center gap-[24px] mx-auto">
-        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%]">
+        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-1/2">
           Our Services<i className="bi bi-film ml-1 text-xl text-colorOne"></i>
         </h2>
         <button className="relative group w-[12rem] h-auto inline-block cursor-pointer align-middle no-underline bg-transparent p-[0] text-[length:inherit] [font-family:inherit]">
@@ -67,10 +67,10 @@ const Services = () => {
           </span>
         </button>
       </div>
-      <div className="flex items-center justify-center overflow-hidden m-0 p-0 h-[70vh] text-white">
-        <div className="flex relative gap-[20px] w-[90%] max-w-[1200px] z-2">
+      <div className="flex items-center justify-center overflow-hidden m-0 p-0 h-[70vh] md:h-auto text-white">
+        <div className="flex flex-row relative gap-[20px] w-[90%] max-w-[1200px] z-2 md:flex-col md:w-full">
           <div
-            className="flex items-end p-[20px] cursor-pointer relative w-[25%] h-[400px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
+            className="flex items-end p-[20px] cursor-pointer relative w-[25%] md:w-full h-[400px] md:h-[150px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
             data-bg="https://cdn.pixabay.com/photo/2022/04/06/11/30/girl-7115394_1280.jpg"
             onMouseMove={() =>
               playVideo(
@@ -94,7 +94,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex items-end p-[20px] cursor-pointer relative w-[25%] h-[400px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
+            className="flex items-end p-[20px] cursor-pointer relative w-[25%] md:w-full h-[400px] md:h-[150px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
             data-bg="thumb2.jpg"
             onMouseMove={() =>
               playVideo(
@@ -118,7 +118,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex items-end p-[20px] cursor-pointer relative w-[25%] h-[400px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
+            className="flex items-end p-[20px] cursor-pointer relative w-[25%] md:w-full h-[400px] md:h-[150px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
             data-bg="thumb3.jpg"
             onMouseMove={() =>
               playVideo(
@@ -142,7 +142,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex items-end p-[20px] cursor-pointer relative w-[25%] h-[400px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
+            className="flex items-end p-[20px] cursor-pointer relative w-[25%] md:w-full h-[400px] md:h-[150px] overflow-hidden rounded-[10px] bg-cover bg-center hover:scale-105"
             data-bg="thumb4.jpg"
             onMouseMove={() =>
               playVideo(

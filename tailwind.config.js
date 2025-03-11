@@ -3,10 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      xs: { max: "479px" }, // Custom "extra small" breakpoint
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
+      xs: { max: "480px" },  // Extra small devices (≤479px)
+      sm: { max: "640px" },  // Small devices (≤639px)
+      md: { max: "768px" },  // Medium devices (≤767px)
+      custom: { max: "1200px" },
+      lg: { max: "1024px" }, // Large devices (≤1023px)
+      xl: { max: "1280px" }, // Extra large devices (≤1279px)
     },
     extend: {
       colors: {

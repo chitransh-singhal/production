@@ -23,9 +23,9 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="w-full h-auto max-w-[1600px] mx-[auto] mt-[50px] bg-white">
+    <div className="w-full h-auto max-w-[1600px] mx-[auto] pt-[50px] bg-white">
       <div className="top-text">
-        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%]">
+        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-1/2">
           Get Started
           <i className="bi bi-envelope-paper ml-1 text-xl text-colorOne"></i>
         </h2>
@@ -40,7 +40,7 @@ const ContactUs = () => {
           backgroundSize: "cover",
         }}
       >
-        <h2 className="text-[66px] font-bold text-white w-1/2">
+        <h2 className="text-[66px] md:text-[48px] xs:!text-[30px] font-bold text-white w-1/2">
           Get in <span className="text-colorOne"> touch with us.</span> We're
           here to
           <span className="text-colorOne"> assist you.</span>

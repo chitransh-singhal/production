@@ -17,9 +17,9 @@ const Portfolio = () => {
     }
   };
 
-  const handleMouseMove = (event) => {
-    const btn = document.getElementById("seeMoreBtn");
-    const container = document.getElementById("imgContainer");
+  const handleMouseMove = (event, containerId, btnId) => {
+    const btn = document.getElementById(btnId);
+    const container = document.getElementById(containerId);
     if (btn && container) {
       const rect = container.getBoundingClientRect();
       const x = event.clientX - rect.left;
@@ -36,7 +36,7 @@ const Portfolio = () => {
       onClick={handleOutsideClick}
     >
       <div className="top-text">
-        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%]">
+        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-1/2">
           Our Portfolio
           <i className="bi bi-camera-video ml-1 text-xl text-colorOne"></i>
         </h2>
@@ -55,12 +55,12 @@ const Portfolio = () => {
 
         <div
           className="relative inline-block w-full h-full"
-          id="imgContainer"
-          onMouseMove={handleMouseMove}
+          id="imgContainer1"
+          onMouseMove={(e) => handleMouseMove(e, "imgContainer1", "seeMoreBtn1")}
         >
           <button
             className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
-            id="seeMoreBtn"
+            id="seeMoreBtn1"
             onClick={handleSeeMoreClick}
           >
             See more
@@ -80,8 +80,18 @@ const Portfolio = () => {
           Product Shoot
         </h4>
 
-        <div className="relative inline-block w-full h-full" id="imgContainer">
-          {/* <!-- <button className="see-more" id="seeMoreBtn">See more</button> --> */}
+        <div
+          className="relative inline-block w-full h-full"
+          id="imgContainer2"
+          onMouseMove={(e) => handleMouseMove(e, "imgContainer2", "seeMoreBtn2")}
+        >
+          <button
+            className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+            id="seeMoreBtn2"
+            onClick={handleSeeMoreClick}
+          >
+            See more
+          </button>
         </div>
       </div>
 
@@ -97,8 +107,18 @@ const Portfolio = () => {
           Photoshoot
         </h4>
 
-        <div className="relative inline-block w-full h-full" id="imgContainer">
-          {/* <!-- <button className="see-more" id="seeMoreBtn">See more</button> --> */}
+        <div
+          className="relative inline-block w-full h-full"
+          id="imgContainer3"
+          onMouseMove={(e) => handleMouseMove(e, "imgContainer3", "seeMoreBtn3")}
+        >
+          <button
+            className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+            id="seeMoreBtn3"
+            onClick={handleSeeMoreClick}
+          >
+            See more
+          </button>
         </div>
       </div>
 
