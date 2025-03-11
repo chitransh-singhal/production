@@ -28,15 +28,15 @@ const Testimonials = () => {
           <i className="bi bi-chat-dots ml-1 text-xl text-colorOne"></i>
         </h2>
       </div>
-      <div className="flex justify-between items-center w-full gap-[8px]">
-        <h3 className="text-[56px] xs:!text-[28px] md:text-[32px] font-bold">
+      <div className="flex justify-between items-center w-full gap-[8px] md:gap-[2px]">
+        <h3 className="text-[56px] xs:!text-[24px] md:text-[32px] font-bold">
           Hear from <br />
           <samp> Satisfied Clients </samp>
         </h3>
         <img
           src="/assets/img-bg.png"
           alt=""
-          className="w-auto xs:!w-[8rem] md:w-[15rem]"
+          className="w-auto xs:!w-[7rem] md:w-[15rem]"
           loading="lazy"
         />
       </div>
@@ -63,7 +63,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center gap-[8px] sm:text-[2rem] xs:[1.5rem]">
+        <div className="flex justify-center items-center gap-[8px] sm:text-[2rem] xs:text-[1.5rem]">
           <img
             className="w-[50px] h-[50px] object-cover rounded-[50%] outline-2 ouline-solid outline-colorOne"
             src="https://c4.wallpaperflare.com/wallpaper/326/481/271/girl-sexy-face-model-wallpaper-preview.jpg"
