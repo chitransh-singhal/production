@@ -37,6 +37,7 @@ const Testimonials = () => {
           src="/assets/img-bg.png"
           alt=""
           className="w-auto xs:!w-[8rem] md:w-[15rem]"
+          loading="lazy"
         />
       </div>
       <div
@@ -57,6 +58,7 @@ const Testimonials = () => {
               src={images[currentIndex]}
               alt={`img ${currentIndex}`}
               className="w-full h-80 object-cover transition-transform duration-1000 ease-in-out"
+              loading="lazy"
             />
           </div>
         </div>
@@ -66,6 +68,7 @@ const Testimonials = () => {
             className="w-[50px] h-[50px] object-cover rounded-[50%] outline-2 ouline-solid outline-colorOne"
             src="https://c4.wallpaperflare.com/wallpaper/326/481/271/girl-sexy-face-model-wallpaper-preview.jpg"
             alt=""
+            loading="lazy"
           />
           <h5>first</h5>
         </div>

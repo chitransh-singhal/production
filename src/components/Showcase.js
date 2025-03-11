@@ -46,7 +46,7 @@ const Showcase = () => {
               </div>
             </div>
             <div class="absolute top-0 right-0 mix-blend-screen">
-              <img src="/assets/33.png" alt="no" />
+              <img src="/assets/33.png" alt="no" loading="lazy"/>
             </div>
           </div>
           <div
@@ -67,7 +67,7 @@ const Showcase = () => {
               </div>
             </div>
             <div class="absolute top-0 right-0 mix-blend-screen">
-              <img src="/assets/22.png" alt="no" />
+              <img src="/assets/22.png" alt="no" loading="lazy"/>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Showcase = () => {
               </div>
             </div>
             <div class="absolute top-0 right-0 mix-blend-screen">
-              <img src="/assets/44.png" alt="no" />
+              <img src="/assets/44.png" alt="no" loading="lazy"/>
             </div>
           </div>
           <div className="flex-1 w-[480px] h-[350px] custom:w-full custom:h-[300px] md:h-[250px] xs:h-[200px] z-5 w-full rounded-md overflow-hidden transition-all duration-200 ease-in"

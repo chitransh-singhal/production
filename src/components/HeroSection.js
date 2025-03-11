@@ -35,10 +35,10 @@ const HeroSection = () => {
       </div>
       
       <div className="absolute py-2 px-4 md:py-[0.4rem] md:px-[0.8rem] md:text-[0.9rem] xs:py-[0.3rem] xs:px-[0.6rem] xs:text-[0.8rem] rounded text-white top-4 right-4 z-20">
-        <img src="/assets/Vector-1.png" alt="" className="w-20 h-20" />
+        <img src="/assets/Vector-1.png" alt="" className="w-20 h-20" loading="lazy"/>
       </div>
       <div className="absolute py-2 px-4 md:py-[0.4rem] md:px-[0.8rem] md:text-[0.9rem] xs:py-[0.3rem] xs:px-[0.6rem] xs:text-[0.8rem] rounded text-white bottom-4 left-4 z-20">
-        <img src="/assets/Vector.png" alt="" className="w-20 h-20" />
+        <img src="/assets/Vector.png" alt="" className="w-20 h-20" loading="lazy"/>
       </div>
       
       <div className="absolute bottom-5 right-8 text-sm font-poppins z-20">@2025</div>

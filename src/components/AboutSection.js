@@ -79,6 +79,7 @@ const AboutSection = () => {
                 src="https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
                 alt=""
                 className="w-full h-full border object-cover rounded-[8px]"
+                loading="lazy"
               />
             </div>
             <div
@@ -92,6 +93,7 @@ const AboutSection = () => {
                 src="/assets/images/_DSC5669.jpg"
                 alt=""
                 className="w-full h-full border object-cover rounded-[8px]"
+                loading="lazy"
               />
             </div>
             <div
@@ -105,6 +107,7 @@ const AboutSection = () => {
                 src="/assets/images/_DSC5753.jpg"
                 alt=""
                 className="w-full h-full border object-cover rounded-[8px]"
+                loading="lazy"
               />
             </div>
             <div
@@ -118,6 +121,7 @@ const AboutSection = () => {
                 src="/assets/images/_DSC5799.jpg"
                 alt=""
                 className="w-full h-full border object-cover rounded-[8px]"
+                loading="lazy"
               />
             </div>
             <div
@@ -131,6 +135,7 @@ const AboutSection = () => {
                 src="https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
                 alt=""
                 className="w-full h-full border object-cover rounded-[8px]"
+                loading="lazy"
               />
             </div>
             <div
