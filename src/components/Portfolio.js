@@ -32,18 +32,18 @@ const Portfolio = () => {
 
   return (
     <div
-      className="w-full h-auto max-w-[1600px] mx-auto mt-[50px] bg-white"
+      className="w-full h-auto max-w-[1600px] mx-auto py-[50px] bg-white px-[1%] md:px-[2%]"
       onClick={handleOutsideClick}
     >
       <div className="top-text">
-        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-1/2">
+        <h2 className="text-[28px] xs:text-xl text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-2/5">
           Our Portfolio
           <i className="bi bi-camera-video ml-1 text-xl text-colorOne"></i>
         </h2>
       </div>
 
       <div
-        className="flex jusify-start items-end mt-[50px] p-[6px] w-full h-[40vh] rounded-lg gap-[8px] overflow-hidden"
+        className="flex jusify-start items-end mt-[20px] p-[6px] w-full h-[40vh] rounded-lg gap-[8px] overflow-hidden"
         style={{
           background: "url('/assets/work-img.jpg') no-repeat center",
           backgroundSize: "cover",
@@ -59,7 +59,7 @@ const Portfolio = () => {
           onMouseMove={(e) => handleMouseMove(e, "imgContainer1", "seeMoreBtn1")}
         >
           <button
-            className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+            className="absolute text-white xs:hidden py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
             id="seeMoreBtn1"
             onClick={handleSeeMoreClick}
           >
@@ -86,7 +86,7 @@ const Portfolio = () => {
           onMouseMove={(e) => handleMouseMove(e, "imgContainer2", "seeMoreBtn2")}
         >
           <button
-            className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+            className="absolute text-white xs:hidden py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
             id="seeMoreBtn2"
             onClick={handleSeeMoreClick}
           >
@@ -113,7 +113,7 @@ const Portfolio = () => {
           onMouseMove={(e) => handleMouseMove(e, "imgContainer3", "seeMoreBtn3")}
         >
           <button
-            className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+            className="absolute text-white xs:hidden py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
             id="seeMoreBtn3"
             onClick={handleSeeMoreClick}
           >

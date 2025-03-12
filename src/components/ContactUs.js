@@ -24,8 +24,8 @@ const ContactUs = () => {
 
   return (
     <div className="w-full h-auto max-w-[1600px] mx-[auto] pt-[50px] bg-white">
-      <div className="top-text">
-        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-1/2">
+      <div className="top-text px-[1%] md:px-[2%]">
+        <h2 className="text-[28px] xs:text-xl text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-2/5">
           Get Started
           <i className="bi bi-envelope-paper ml-1 text-xl text-colorOne"></i>
         </h2>
@@ -40,13 +40,13 @@ const ContactUs = () => {
           backgroundSize: "cover",
         }}
       >
-        <h2 className="text-[66px] md:text-[48px] xs:!text-[30px] font-bold text-white w-1/2">
-          Get in <span className="text-colorOne"> touch with us.</span> We're
+        <h2 className="text-[66px] md:text-[52px] xs:!text-[30px] font-bold text-white w-1/2 md:w-full">
+          Get in <span className="text-colorOne"> touch with us.</span><br/> We're
           here to
           <span className="text-colorOne"> assist you.</span>
         </h2>
         <button
-          className="absolute text-white py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
+          className="absolute text-white xs:hidden py-[60px] px-[40px] bg-white/30 cursor-pointer rounded-[50%] pointer-events-auto z-5 transition-transform duration-[0.1s] ease-out shadow-custom backdrop-blur-[5px] border border-solid border-white/30"
           id="seeMoreBtnn"
           onClick={handleSeeMoreClick}
         >

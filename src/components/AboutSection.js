@@ -21,10 +21,10 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <div className="pt-[110px] mx-auto flex lg:flex-col lg:text-center items-center justify-between flex-wrap w-full max-w-[1600px] bg-white">
+    <div className="pt-[110px] pb-[2%] px-[1%] md:px-[2%] mx-auto flex lg:flex-col lg:text-center items-center justify-between flex-wrap w-full max-w-[1600px] bg-white">
       <div className="w-full flex lg:flex-col-reverse flex-row justify-center items-start">
         <div className="lg:max-w-full max-w-[40%] text-left flex flex-col justify-center items-start gap-2">
-          <h2 className="text-[32px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-1/3 xs:!w-1/2">
+          <h2 className="text-[32px] xs:text-xl text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-1/3">
             About us
             <i className="bi bi-bullseye ml-1 text-xl text-colorOne"></i>
           </h2>
@@ -61,7 +61,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div
-          className="w-full h-[650px] text-center overflow-hidden relative float-end perspective-[1000px] max-w-full"
+          className="w-full h-[650px] md:h-[450px] xs:h-[360px] text-center overflow-hidden relative float-end perspective-[1000px] max-w-full"
           style={{ transform: "rotate3d(1, 1, 1, 45deg)",  transformOrigin: "center top" }}
         >
           <div

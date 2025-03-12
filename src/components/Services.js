@@ -39,9 +39,9 @@ const Services = () => {
   };
 
   return (
-    <div className="w-full h-[790px] max-w-[1600px] mx-auto mt-[50px] bg-transparent">
-      <div className="flex justify-start items-center gap-[24px] mx-auto">
-        <h2 className="text-[28px] text-[#333] font-bold text-center mb-[15px] outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-1/2">
+    <div className="w-full h-[650px] md:h-[750px] max-w-[1600px] mx-auto mt-[50px] bg-transparent px-[1%] md:px-[2%]">
+      <div className="flex justify-start items-center align-middle gap-[24px] mx-auto mb-[15px]">
+        <h2 className="text-[28px] xs:text-xl text-[#333] font-bold text-center outline outline-2 outline-colorOne rounded-3xl w-[15%] md:w-1/3 xs:!w-2/5">
           Our Services<i className="bi bi-film ml-1 text-xl text-colorOne"></i>
         </h2>
         <button className="relative group w-[12rem] h-auto inline-block cursor-pointer align-middle no-underline bg-transparent p-[0] text-[length:inherit] [font-family:inherit]">

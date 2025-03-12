@@ -3,7 +3,7 @@ import React from "react";
 const Showcase = () => {
   return (
     <div
-      className="pt-[90px] w-full h-[860px] custom:h-auto max-w-full flex justify-center items-center md:pt-[60px] xs:pt-[30px]"
+      className="py-[50px] px-[1%] md:px-[2%]  w-full h-[860px] custom:h-auto max-w-full flex justify-center items-center"
       style={{
         background: "url('/assets/bg-img-gor.png') black no-repeat",
         backgroundSize: "100%",
