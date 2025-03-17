@@ -8,6 +8,12 @@ const Portfolio = () => {
     setIsModalOpen(true);
   };
 
+  const handleModalClick = () => {
+    if(window.innerWidth <= 460){
+      setIsModalOpen(true);
+    }
+  };
+
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
@@ -48,6 +54,7 @@ const Portfolio = () => {
           background: "url('/assets/work-img.jpg') no-repeat center",
           backgroundSize: "cover",
         }}
+        onClick={handleModalClick}
       >
         <h4 className="text-white text-[1.6rem]/[1.2] opacity-[0.8] w-full">
           Photoshoot
@@ -75,6 +82,7 @@ const Portfolio = () => {
             "url('https://cdn.pixabay.com/photo/2023/08/11/10/15/watch-8183268_1280.jpg') no-repeat center",
           backgroundSize: "cover",
         }}
+        onClick={handleModalClick}
       >
         <h4 className="text-white text-[1.6rem]/[1.2] opacity-[0.8] w-full">
           Product Shoot
@@ -102,6 +110,7 @@ const Portfolio = () => {
             "url('https://cdn.pixabay.com/photo/2016/08/16/18/08/camera-1598632_1280.jpg') no-repeat center",
           backgroundSize: "cover",
         }}
+        onClick={handleModalClick}
       >
         <h4 className="text-white text-[1.6rem]/[1.2] opacity-[0.8] w-full">
           Photoshoot
