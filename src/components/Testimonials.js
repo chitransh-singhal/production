@@ -25,18 +25,6 @@ const Testimonials = () => {
     },
   ];
 
-  // const [currentIndex, setCurrentIndex] = useState(0);
-
-  // const handleNext = () => {
-  //   setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  // };
-
-  // const handlePrev = () => {
-  //   setCurrentIndex((prevIndex) =>
-  //     prevIndex === 0 ? images.length - 1 : prevIndex - 1
-  //   );
-  // };
-
   return (
     <div className="w-full h-auto max-w-[1600px] mx-auto pt-[50px] bg-white px-[1%] md:px-[2%]">
       <div className="top-text">
@@ -98,7 +86,7 @@ const Testimonials = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex flex-col gap-[13px] mr-[3%]">
+        <div className="flex flex-col gap-[13px] mr-[3%] xs:mt-[calc(130px-10vw)]">
           <button
             className="custom-next w-[60px] h-[60px] md:w-[40px] md:h-[40px] rounded-[50%] border border-solid border-[#FFD700] 
                       flex items-center justify-center text-[22px] cursor-pointer transition-all 
